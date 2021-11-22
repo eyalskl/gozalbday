@@ -1,0 +1,82 @@
+html {
+    color: #222;
+    text-shadow: black 1px 1px;
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #ddd6f3;
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+    background: linear-gradient(to right, #faaca8, #ddd6f3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    direction: rtl;
+}
+
+div {
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+input:focus {
+    border-color: rgb(105, 105, 255);
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(72, 83, 235);
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+    transition: .2s;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(240, 240, 240);
+    box-shadow: none;
+}
+
+.wrong {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-bottom {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.red-border {
+    border-color: red !important;
+}
