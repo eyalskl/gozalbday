@@ -39,6 +39,22 @@ input:focus {
     outline: none;
 }
 
+h2 {
+    color: blueviolet;
+}
+
+p {
+    text-align: right;
+    line-height: 1.5;
+    min-width: 350px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(29, 29, 29);
+    text-shadow: rgb(150, 150, 150) 1px 1px;
+    font-size: 17px;
+}
+
 button {
     padding: 10px;
     background-color: rgb(72, 83, 235);
@@ -72,7 +88,7 @@ button:active {
 
 .btn-bottom {
     position: fixed;
-    bottom: 10px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
 }
